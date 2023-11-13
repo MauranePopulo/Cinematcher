@@ -1,0 +1,27 @@
+.bin {
+  font-size: 10 px;
+  height: 100%;
+   width: 2%;
+  margin-right: auto;
+  margin-top: 120px;
+}
+body{
+  margin-left: var(--margin-h1-left);
+}
+.Title_Fav > h1 {
+  font-size: var(--all-h1-size);
+  margin-left: var(--margin-h1-left);
+  margin-bottom: var(--margin-h1-left);
+}
+@media (max-width: 700px) {
+  .bin {
+        width: 3%;
+     }
+    }
+.Mes_favs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+ }

@@ -1,0 +1,30 @@
+.Oops {
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  width: 50vh;
+  height: 30vh;
+}
+
+h1 {
+  color: white;
+  margin-top: 2rem;
+}
+
+.cta-homepage {
+  background-color: #0fa226;
+  margin-top: 16px;
+  color: white;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+}
+
+.Oops a {
+  color: white;
+  font-size: 20px;
+}
